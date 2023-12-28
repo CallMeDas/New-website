@@ -1,11 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;500&family=Roboto+Mono:ital,wght@1,300&family=Roboto+Slab&display=swap");
 
 img {
   width: 20%;
+  color: white;
 }
 .container {
   display: flex;
+  padding: 2px;
 }
-.menu{
+.menu {
   flex: 1;
 }
 .menu ul {
@@ -15,8 +18,32 @@ img {
 }
 .menu ul li a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0 15px;
   text-decoration: none;
-  color: #EC7063;
+  color: black;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
 
+.menu ul li a:hover {
+  color: yellow;
+  font-size: 15px;
+}
+
+section .container{
+   
+}
+
+
+.left {
+  /* position: relative; */
+  width: 52%;
+  background-color: aqua;
+  height: 85vh;
+}
+.right {
+  background-color: blue;
+  width: 50%;
+  height: 85vh;
 }
